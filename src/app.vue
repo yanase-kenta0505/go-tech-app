@@ -1,10 +1,9 @@
 <template>
   <v-app>
-    <v-app-bar app>
-      <v-app-bar-title>testestestest</v-app-bar-title>
-    </v-app-bar>
-    <v-main>
-      <nuxt-page></nuxt-page>
-    </v-main>
+    <NuxtLayout>
+      <v-main>
+        <NuxtPage />
+      </v-main>
+    </NuxtLayout>
   </v-app>
 </template>
