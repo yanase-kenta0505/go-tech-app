@@ -4,6 +4,7 @@
   </v-app-bar>
   <v-card class="mt-16">
     <v-toolbar>
+      <v-icon >fas fa-folder-open</v-icon>
     </v-toolbar>
   </v-card>
 </template>
